@@ -1,0 +1,86 @@
+{
+  "id": "wfrp4e-mutations",
+  "title": "WFRP4e - The Mutant's Handbook",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Prof. Turo",
+      "url": "https://github.com/artptz",
+      "discord": "simplyakira",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "mutations-items",
+      "label": "Items (Mutations)",
+      "path": "packs/mutations-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "mutations-journal",
+      "label": "Journal Entries (Mutations)",
+      "path": "packs/mutations-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "mutations-macros",
+      "label": "Macros (Mutations)",
+      "path": "packs/mutations-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "mutations-rolltables",
+      "label": "RollTables (Mutations)",
+      "path": "packs/mutations-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Mutant's Handbook",
+      "sorting": "m",
+      "packs": ["mutations-items","mutations-journal","mutations-rolltables","mutations-macros"],
+      "color":  "#21c493"
+    }
+  ],
+  "manifest":"https://raw.githubusercontent.com/artptz/wfrp4e-mutations/main/module.json",
+  "download": "https://github.com/artptz/wfrp4e-mutations/archive/main.zip"
+}
