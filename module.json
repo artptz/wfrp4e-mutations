@@ -24,7 +24,8 @@
     }
   ],
   "esmodules": [
-      "/scripts/mutationMessages.mjs"
+      "/scripts/mutation-messages.mjs",
+      "/scripts/functions.mjs"
   ],
   "packs": [
     {
