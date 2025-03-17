@@ -23,6 +23,9 @@
       "flags": {}
     }
   ],
+  "esmodules": [
+      "/scripts/mutationMessages.mjs"
+  ],
   "packs": [
     {
       "name": "mutations-items",
