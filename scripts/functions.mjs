@@ -30,18 +30,6 @@ export async function rollMutation(actor, mutationSource) {
                 fromUuid(table.uuid).then(async fetchedTable => {
                     if (fetchedTable) {
                         const draw = await fetchedTable.draw();
-        
-                        let resultOutput = draw.results[0].documentId ?
-                            `@UUID[Item.${draw.results[0].documentId}]{${draw.results[0].text}}` :
-                            draw.results[0].text;
-        
-                        ChatMessage.create({
-                            content: `<b>Actor:</b> ${actor.name}<br>
-                                      <b>Source of Mutation:</b> ${mutationSource}<br>
-                                      <b>Table:</b> ${table.name}<br>
-                                      <b>Result:</b> ${resultOutput}`,
-                            speaker: { alias: "Dissolution of Body and Mind" }
-                        });
                     } else {
                         ui.notifications.error(`Could not fetch table with UUID: ${table.uuid}`);
                     }
