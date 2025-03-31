@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-mutations",
   "title": "WFRP4e - The Mutant's Handbook",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -17,10 +17,13 @@
   },
   "authors": [
     {
-      "name": "Prof. Turo",
+      "name": "atreyu",
       "url": "https://github.com/artptz",
-      "discord": "simplyakira",
-      "flags": {}
+      "discord": "atr.eyu"
+    },
+    {
+      "name": "Anders Hellspong",
+      "discord": "hellspong"
     }
   ],
   "esmodules": [
@@ -66,7 +69,7 @@
     },
     {
       "name": "mutations-rolltables",
-      "label": "RollTables (Mutations)",
+      "label": "Tables (Mutations)",
       "path": "packs/mutations-rolltables",
       "type": "RollTable",
       "ownership": {
