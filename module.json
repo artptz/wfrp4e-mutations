@@ -17,9 +17,9 @@
   },
   "authors": [
     {
-      "name": "atreyu",
+      "name": "artantares",
       "url": "https://github.com/artptz",
-      "discord": "atr.eyu"
+      "discord": "artantares"
     },
     {
       "name": "Anders Hellspong",
@@ -32,9 +32,9 @@
   ],
   "packs": [
     {
-      "name": "mutations-items",
+      "name": "items",
       "label": "Items (Mutations)",
-      "path": "packs/mutations-items",
+      "path": "packs/items",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -44,9 +44,9 @@
       "flags": {}
     },
     {
-      "name": "mutations-journal",
+      "name": "journal",
       "label": "Journal Entries (Mutations)",
-      "path": "packs/mutations-journal",
+      "path": "packs/journal",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -56,9 +56,9 @@
       "flags": {}
     },
     {
-      "name": "mutations-macros",
+      "name": "macros",
       "label": "Macros (Mutations)",
-      "path": "packs/mutations-macros",
+      "path": "packs/macros",
       "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -68,9 +68,9 @@
       "flags": {}
     },
     {
-      "name": "mutations-rolltables",
+      "name": "rolltables",
       "label": "Tables (Mutations)",
-      "path": "packs/mutations-rolltables",
+      "path": "packs/rolltables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -84,7 +84,7 @@
     {
       "name": "Mutant's Handbook",
       "sorting": "m",
-      "packs": ["mutations-items","mutations-journal","mutations-rolltables","mutations-macros"],
+      "packs": ["items","journal","rolltables","macros"],
       "color":  "#21c493"
     }
   ],
