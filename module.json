@@ -1,10 +1,11 @@
 {
   "id": "wfrp4e-mutations",
   "title": "WFRP4e - The Mutant's Handbook",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "12.331"
+    "verified": "13",
+    "maximum": "13"
   },
   "relationships": {
     "systems": [
@@ -13,7 +14,7 @@
         "type": "system",
         "compatibility": {
             "minimum": "8.0.2",
-            "verified": "8.5.1"
+            "verified": "9.0.2"
           }
       }
     ]

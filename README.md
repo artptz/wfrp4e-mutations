@@ -1,6 +1,8 @@
 # wfrp4e-mutations
 WFRP4E module for Foundry based on the Mutation's Handbook by Anders Hellspong
 
+## v2.0.0
+Verified Compatibility with v13
 
 ## v1.0.2
 Corrected mismatched internal items references
