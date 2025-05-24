@@ -91,6 +91,6 @@
       "color":  "#21c493"
     }
   ],
-  "manifest":"https://github.com/artptz/wfrp4e-mutations/releases/download/latest/module.json",
+  "manifest":"https://github.com/artptz/wfrp4e-mutations/releases/latest/download/module.json",
   "download": "https://github.com/artptz/wfrp4e-mutations/releases/download/v1.0.2/artantares-mutations.zip"
 }
