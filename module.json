@@ -1,7 +1,7 @@
 {
   "id": "wfrp4e-mutations",
   "title": "WFRP4e - The Mutant's Handbook",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12.331"
@@ -92,5 +92,5 @@
     }
   ],
   "manifest":"https://github.com/artptz/wfrp4e-mutations/releases/latest/download/module.json",
-  "download": "https://github.com/artptz/wfrp4e-mutations/releases/download/v1.0.2/artantares-mutations.zip"
+  "download": "https://github.com/artptz/wfrp4e-mutations/releases/download/v1.1.0/artantares-mutations.zip"
 }
