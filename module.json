@@ -3,7 +3,7 @@
   "title": "WFRP4e - The Mutant's Handbook",
   "version": "2.0.0",
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13",
     "maximum": "13"
   },
@@ -13,8 +13,8 @@
         "id": "wfrp4e",
         "type": "system",
         "compatibility": {
-            "minimum": "8.0.2",
-            "verified": "9.0.2"
+            "minimum": "9.0.0",
+            "verified": "9.0.4"
           }
       }
     ]
@@ -33,6 +33,9 @@
   "esmodules": [
       "/scripts/mutation-messages.mjs",
       "/scripts/functions.mjs"
+  ],
+  "scripts": [
+      "/scripts/initialization.js"
   ],
   "packs": [
     {
