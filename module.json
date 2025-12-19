@@ -1,10 +1,11 @@
 {
-  "id": "wfrp4e-mutations",
-  "title": "WFRP4e - The Mutant's Handbook",
-  "version": "2.0.0",
+  "id": "artantares-mutations",
+  "title": "ArtAntares - The Mutant's Handbook [WFRP4E]",
+  "description": "A module with homebrew rules for mutation and corruption for WFRP 4e, based on the work by Anders Hellspong",
+  "version": "2.1.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "13.342"
+    "verified": "13.351"
   },
   "relationships": {
     "systems": [
@@ -13,7 +14,7 @@
         "type": "system",
         "compatibility": {
             "minimum": "9.0.0",
-            "verified": "9.0.4"
+            "verified": "9.3.2"
           }
       }
     ]
