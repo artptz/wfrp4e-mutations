@@ -1,6 +1,9 @@
 # wfrp4e-mutations
 WFRP4E module for Foundry based on the Mutation's Handbook by Anders Hellspong
 
+## v3.0.0
+Update to Foundry v14
+
 ## v2.1.0
 Update folder structure
 
