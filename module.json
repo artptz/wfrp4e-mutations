@@ -1,11 +1,11 @@
 {
   "id": "artantares-mutations",
-  "title": "ArtAntares - The Mutant's Handbook [WFRP4E]",
+  "title": "Antares | Mutant's Handbook [WFRP4E]",
   "description": "A module with homebrew rules for mutation and corruption for WFRP 4e, based on the work by Anders Hellspong",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13.351"
+    "minimum": "14",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -13,26 +13,28 @@
         "id": "wfrp4e",
         "type": "system",
         "compatibility": {
-            "minimum": "9.0.0",
-            "verified": "9.3.2"
-          }
+          "minimum": "9.0.0",
+          "verified": "9.6.1"
+        }
       }
     ]
   },
   "authors": [
     {
-      "name": "artantares",
+      "name": "antares",
       "url": "https://github.com/artptz",
-      "discord": "artantares"
+      "discord": "artantares",
+      "flags": {}
     },
     {
       "name": "Anders Hellspong",
-      "discord": "hellspong"
+      "discord": "hellspong",
+      "flags": {}
     }
   ],
   "esmodules": [
-      "/scripts/mutation-messages.mjs",
-      "/scripts/functions.mjs"
+    "/scripts/mutation-messages.mjs",
+    "/scripts/functions.mjs"
   ],
   "packs": [
     {
@@ -88,10 +90,17 @@
     {
       "name": "Mutant's Handbook",
       "sorting": "m",
-      "packs": ["items","journal","rolltables","macros"],
-      "color":  "#21c493"
+      "packs": [
+        "items",
+        "journal",
+        "rolltables",
+        "macros"
+      ],
+      "color": "#21c493",
+      "folders": []
     }
   ],
-  "manifest":"https://github.com/artptz/wfrp4e-mutations/releases/latest/download/module.json",
-  "download": "https://github.com/artptz/wfrp4e-mutations/releases/download/v2.1.0/artantares-mutations.zip"
+  "manifest": "https://github.com/artptz/wfrp4e-mutations/releases/latest/download/module.json",
+  "download": "https://github.com/artptz/wfrp4e-mutations/releases/download/v2.1.0/artantares-mutations.zip",
+  "flags": {}
 }
